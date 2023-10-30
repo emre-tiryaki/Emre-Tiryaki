@@ -1,6 +1,6 @@
 - 👋 Hi, I’m @Emre-Tiryaki
 - 👀 I’m interested in coding and I want to learn coding
-- 🌱 I’m currently learning C# and Python
+- 🌱 I’m currently learning C
 - 📫 How to reach me tiryakiemre18@gmail.com
 
 <!---
