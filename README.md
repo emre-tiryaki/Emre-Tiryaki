@@ -1,7 +1,7 @@
 <h1 align="center">Hi 👋, I'm Emre Tiryaki</h1>
 <h3 align="center">A passionate software engineering student from turkey</h3>
 
-- 🌱 I’m currently learning **Java, MySQL, MongoDB**
+- 🌱 I’m currently learning **Java**
 
 - 📫 How to reach me **tiryakiemre18@gmail.com**
 
