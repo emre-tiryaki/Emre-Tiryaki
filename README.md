@@ -12,7 +12,7 @@
 <h3 align="left">Connect with me:</h3>
 <p align="left">
 <a href="https://twitter.com/mrtiryaki" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="mrtiryaki" height="30" width="40" /></a>
-<a href="[www.linkedin.com/in/emre-tiryaki-7448b6290](https://www.linkedin.com/in/emre-tiryaki-7448b6290/)" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="emre tiryaki" height="30" width="40" /></a>
+<a href="https://linkedin.com/emre-tiryaki" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="emre tiryaki" height="30" width="40" /></a>
 <a href="https://instagram.com/emre._.tiryaki" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="emre._.tiryaki" height="30" width="40" /></a>
 <a href="https://www.hackerrank.com/tiryaki" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/hackerrank.svg" alt="tiryaki" height="30" width="40" /></a>
 <a href="https://www.leetcode.com/emre tiryaki" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/leet-code.svg" alt="emre tiryaki" height="30" width="40" /></a>
