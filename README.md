@@ -3,7 +3,7 @@
 
 <p align="left"> <a href="https://twitter.com/mrtiryaki" target="blank"><img src="https://img.shields.io/twitter/follow/mrtiryaki?logo=twitter&style=for-the-badge" alt="mrtiryaki" /></a> </p>
 
-- 🐧 I’m currently learning **mobile development,**
+- 🐧 I’m currently learning **data science**
 
 - 📫 How to reach me **tiryakiemre18@gmail.com**
 
