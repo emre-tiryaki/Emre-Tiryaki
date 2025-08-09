@@ -13,8 +13,9 @@
 </div>
 
 ###
-
-<p align="center">tiryakiemre18@gmail.com</p>
+<p align="center">
+  <a href="mailto:tiryakiemre18@gmail.com">tiryakiemre18@gmail.com</a>
+</p>
 
 ###
 
