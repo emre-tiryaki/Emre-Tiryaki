@@ -4,7 +4,7 @@
 
 ###
 
-<h2 align="center">A passionate fullstack developer from Turkey</h2>
+<h2 align="center">A passionate backend developer from Turkey</h2>
 
 ###
 
