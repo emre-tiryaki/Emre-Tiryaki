@@ -11,6 +11,15 @@
   </p>
 
   <br>
+  
+  <div align="center">
+    <span>Literally me</span>
+    <span>👇</span>
+    <br>
+    <img src="https://media1.tenor.com/m/elUJjiRt7TgAAAAC/my-honest-reaction.gif" width="200"/>
+    <img src="https://media1.tenor.com/m/d4LGHDdD1-gAAAAC/ryan-gosling-real.gif" width="200"/>
+  </div>
+  <br>
 
   <h2>🛠 Tools & Technologies</h2>
   <p>
