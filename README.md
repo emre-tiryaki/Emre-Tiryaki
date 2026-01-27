@@ -1,75 +1,60 @@
-<br clear="both">
-
-<h1 align="center">Hi 👋, I'm Emre</h1>
-
-###
-
-<h2 align="center">A passionate backend developer from Turkey</h2>
-
-###
-
 <div align="center">
-  <img src="https://github-profile-trophy.vercel.app?username=emre-tiryaki&theme=gitdimmed&column=-1&row=1&margin-w=8&margin-h=8&no-bg=true&no-frame=false&order=4" height="150" alt="trophy graph"  />
-</div>
 
-###
-<p align="center">
-  <a href="mailto:tiryakiemre18@gmail.com">tiryakiemre18@gmail.com</a>
-</p>
+  <h1>Hi there, I'm Emre Tiryaki 👋</h1>
+  
+  <p>
+    Professional problem solver (mostly for problems I created myself :P). 
+  <br>
+  <br>
+    I bridge the gap between <i>"It works in Jupyter"</i> and <i>"It works in Production"</i>. 
+    Obsessed with <b>Automation</b>, <b>Clean Architecture</b>, and fixing my KDE setup after a breaking update.
+  </p>
 
-###
+  <br>
 
-<h3 align="center">Connect with me:</h3>
+  <h2>🛠 Tools & Technologies</h2>
+  <p>
+    <img src="https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white" alt="Java" />
+    <img src="https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54" alt="Python" />
+    <img src="https://img.shields.io/badge/go-%2300ADD8.svg?style=for-the-badge&logo=go&logoColor=white" alt="Go" />
+    <img src="https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white" alt="Bash" />
+    <br>
+    <img src="https://img.shields.io/badge/spring-%236DB33F.svg?style=for-the-badge&logo=spring&logoColor=white" alt="Spring" />
+    <img src="https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white" alt="NodeJS" />
+    <img src="https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=white" alt="Express.js" />
+    <img src="https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB" alt="React" />
+    <br>
+    <img src="https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white" alt="Docker" />
+    <img src="https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white" alt="Git" />
+    <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" alt="Linux" />
+    <img src="https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white" alt="PostgreSQL" />
+    <img src="https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white" alt="MongoDB" />
+  </p>
 
-###
+  <br>
 
-<div align="center">
-  <a href="https://www.linkedin.com/in/emre-tiryaki-7448b6290"><img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/linkedin/default.svg" width="52" height="40" alt="linkedin logo"  /></a>
-  <a href="https://www.instagram.com/emre._.tiryaki"><img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/instagram/default.svg" width="52" height="40" alt="instagram logo"  /></a>
-</div>
+  <h2>📊 GitHub Analytics</h2>
+  
+  <p>
+    <img src="https://github-readme-stats.vercel.app/api?username=emre-tiryaki&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117" alt="Emre's Stats" height="150" />
+    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=emre-tiryaki&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117" alt="Top Langs" height="150" />
+  </p>
 
-###
+  <br>
 
-<h3 align="center">Languages and Tools:</h3>
+  <p><i>"Code is like humor. When you have to explain it, it’s bad."</i></p>
+  
+  <a href="https://github.com/emre-tiryaki">
+    <img src="https://komarev.com/ghpvc/?username=emre-tiryaki&label=Profile%20Views&color=0e75b6&style=flat-square" alt="Profile Views" />
+  </a>
 
-###
+  <br>
 
-<br clear="both">
+  <a href="mailto:tiryakiemre18@gmail.com">
+    <img src="https://img.shields.io/badge/Contact_Me-Email-red?style=flat-square&logo=gmail" alt="Email" />
+  </a>
+  <a href="https://www.linkedin.com/in/emre-tiryaki-7448b6290/">
+    <img src="https://img.shields.io/badge/Connect-LinkedIn-blue?style=flat-square&logo=linkedin" alt="LinkedIn" />
+  </a>
 
-<div align="center">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" height="40" alt="typescript logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original-wordmark.svg" height="40" alt="react logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" height="40" alt="html5 logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" height="40" alt="css logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="40" alt="javascript logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/googlecloud/googlecloud-original-wordmark.svg" height="40" alt="googlecloud logo"  />
-  <img width="12" />
-  <img src="https://cdn.simpleicons.org/mongodb/47A248" height="40" alt="mongodb logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original-wordmark.svg" height="40" alt="mysql logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-plain-wordmark.svg" height="40" alt="git logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original-wordmark.svg" height="40" alt="nodejs logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original-wordmark.svg" height="40" alt="postgresql logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" height="40" alt="python logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original-wordmark.svg" height="40" alt="tailwindcss logo"  />
-</div>
-
-###
-
-<h3 align="center">My Github Stats:</h3>
-
-###
-
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=emre-tiryaki&hide_title=true&hide_rank=false&show_icons=true&include_all_commits=true&count_private=true&disable_animations=true&theme=codeSTACKr&locale=en&hide_border=true&order=1" height="150" alt="stats graph"  />
 </div>
