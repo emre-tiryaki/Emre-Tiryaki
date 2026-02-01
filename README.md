@@ -58,11 +58,4 @@
 
   <br>
 
-  <a href="mailto:tiryakiemre18@gmail.com">
-    <img src="https://img.shields.io/badge/Contact_Me-Email-red?style=flat-square&logo=gmail" alt="Email" />
-  </a>
-  <a href="https://www.linkedin.com/in/emre-tiryaki-7448b6290/">
-    <img src="https://img.shields.io/badge/Connect-LinkedIn-blue?style=flat-square&logo=linkedin" alt="LinkedIn" />
-  </a>
-
 </div>
