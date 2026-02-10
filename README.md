@@ -41,15 +41,6 @@
 
   <br>
 
-  <h2>📊 GitHub Analytics</h2>
-  
-  <p>
-    <img src="https://github-readme-stats.vercel.app/api?username=emre-tiryaki&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117" alt="Emre's Stats" height="150" />
-    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=emre-tiryaki&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117" alt="Top Langs" height="150" />
-  </p>
-
-  <br>
-
   <p><i>"Code is like humor. When you have to explain it, it’s bad."</i></p>
   
   <a href="https://github.com/emre-tiryaki">
