@@ -7,7 +7,7 @@
   <br>
   <br>
     I bridge the gap between <i>"It works in Jupyter"</i> and <i>"It works in Production"</i>. 
-    Obsessed with <b>Automation</b>, <b>Clean Architecture</b>, and fixing my KDE setup after a breaking update.
+    Obsessed with <b>Automation</b>, <b>Clean Architecture</b>, and fixing my Arch setup after a breaking update.
   </p>
 
   <br>
