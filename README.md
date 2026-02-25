@@ -11,15 +11,6 @@
   </p>
 
   <br>
-  
-  <div align="center">
-    <span>Literally me</span>
-    <span>👇</span>
-    <br>
-    <img src="https://media1.tenor.com/m/elUJjiRt7TgAAAAC/my-honest-reaction.gif" height="175"/>
-    <img src="https://media1.tenor.com/m/d4LGHDdD1-gAAAAC/ryan-gosling-real.gif" height="175"/>
-  </div>
-  <br>
 
   <h2>🛠 Tools & Technologies</h2>
   <p>
@@ -47,6 +38,15 @@
     <img src="https://komarev.com/ghpvc/?username=emre-tiryaki&label=Profile%20Views&color=0e75b6&style=flat-square" alt="Profile Views" />
   </a>
 
+  <br>
+  
+  <div align="center">
+    <span>Literally me</span>
+    <span>👇</span>
+    <br>
+    <img src="https://media1.tenor.com/m/elUJjiRt7TgAAAAC/my-honest-reaction.gif" height="175"/>
+    <img src="https://media1.tenor.com/m/d4LGHDdD1-gAAAAC/ryan-gosling-real.gif" height="175"/>
+  </div>
   <br>
 
 </div>
