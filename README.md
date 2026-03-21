@@ -3,13 +3,18 @@
   <h1>Hi there, I'm Emre Tiryaki 👋</h1>
   
   <p>
-    Professional problem solver (mostly for problems I created myself :P). 
-  <br>
-  <br>
-    I bridge the gap between <i>"It works in Jupyter"</i> and <i>"It works in Production"</i>. 
-    Obsessed with <b>Automation</b>, <b>Clean Architecture</b>, and fixing my Arch setup after a breaking update.
+    Professional problem solver (mostly for problems I created myself :P).
   </p>
 
+  <p><i>"Code is like humor. When you have to explain it, it’s bad."</i></p>
+  
+  <div align="center">
+    <span>Literally me</span>
+    <span>👇</span>
+    <br>
+    <img src="https://media1.tenor.com/m/elUJjiRt7TgAAAAC/my-honest-reaction.gif" height="175"/>
+    <img src="https://media1.tenor.com/m/d4LGHDdD1-gAAAAC/ryan-gosling-real.gif" height="175"/>
+  </div>
   <br>
 
   <h2>🛠 Tools & Technologies</h2>
@@ -30,23 +35,8 @@
     <img src="https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white" alt="MongoDB" />
   </p>
 
-  <br>
-
-  <p><i>"Code is like humor. When you have to explain it, it’s bad."</i></p>
-  
-  <a href="https://github.com/emre-tiryaki">
+   <a href="https://github.com/emre-tiryaki">
     <img src="https://komarev.com/ghpvc/?username=emre-tiryaki&label=Profile%20Views&color=0e75b6&style=flat-square" alt="Profile Views" />
   </a>
-
-  <br>
-  
-  <div align="center">
-    <span>Literally me</span>
-    <span>👇</span>
-    <br>
-    <img src="https://media1.tenor.com/m/elUJjiRt7TgAAAAC/my-honest-reaction.gif" height="175"/>
-    <img src="https://media1.tenor.com/m/d4LGHDdD1-gAAAAC/ryan-gosling-real.gif" height="175"/>
-  </div>
-  <br>
 
 </div>
