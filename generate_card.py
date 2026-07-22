@@ -60,13 +60,13 @@ def main():
         "username": USERNAME if USERNAME else "Emre-Tiryaki",
         "os_info": "Arch Linux x86_64",
         "host_info": "Lenovo LOQ 15IRX10",
-        "kernel_info": "Linux 6.x",
-        "ide_info": "Neovim / VSCode",
-        "languages_prog": "Go, Rust, TypeScript, Java",
+        "kernel_info": "Linux 7.1.4-arch1-1",
+        "ide_info": "VSCode",
+        "languages_prog": "Go, TypeScript, JavaScript",
         "languages_real": "Turkish, English",
-        "hobbies": "Open Source, Backend Dev",
-        "email": "kullanici@domain.com",
-        "linkedin": "in/kullaniciadi",
+        "hobbies": "Open Source, Backend Dev", "Infrastructure"
+        "email": "tiryakiemre18@gmail.com",
+        "linkedin": "in/emre-tiryaki-7448b6290/",
         "loc_total": "250,420",
         "loc_add": "310,120",
         "loc_del": "59,700"
@@ -75,7 +75,6 @@ def main():
     with open("templates/card_template.svg", "r", encoding="utf-8") as f:
         template = f.read()
 
-    # format() yerine manuel replacement yapıyoruz (CSS süslü parantezleri patlamasın diye)
     output_svg = template
     for key, value in stats.items():
         output_svg = output_svg.replace(f"{{{key}}}", str(value))
