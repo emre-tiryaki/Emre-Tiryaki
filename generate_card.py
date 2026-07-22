@@ -57,12 +57,12 @@ def main():
     
     # Kendi profil bilgilerine gore burayi duzenle
     stats.update({
-        "username": USERNAME if USERNAME else "user",
+        "username": USERNAME if USERNAME else "Emre-Tiryaki",
         "os_info": "Arch Linux x86_64",
         "host_info": "Lenovo LOQ 15IRX10",
         "kernel_info": "Linux 6.x",
         "ide_info": "Neovim / VSCode",
-        "languages_prog": "Go, Rust, Python, C++",
+        "languages_prog": "Go, Rust, TypeScript, Java",
         "languages_real": "Turkish, English",
         "hobbies": "Open Source, Backend Dev",
         "email": "kullanici@domain.com",
@@ -75,7 +75,10 @@ def main():
     with open("templates/card_template.svg", "r", encoding="utf-8") as f:
         template = f.read()
 
-    output_svg = template.format(**stats)
+    # format() yerine manuel replacement yapıyoruz (CSS süslü parantezleri patlamasın diye)
+    output_svg = template
+    for key, value in stats.items():
+        output_svg = output_svg.replace(f"{{{key}}}", str(value))
 
     with open("output_card.svg", "w", encoding="utf-8") as f:
         f.write(output_svg)
