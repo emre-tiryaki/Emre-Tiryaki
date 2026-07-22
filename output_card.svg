@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" font-family="Consolas, 'Courier New', monospace" width="1020px" height="580px" font-size="14px">
+<style>
+  .key { fill: #ffa657; }
+  .value { fill: #a5d6ff; }
+  .addColor { fill: #3fb950; }
+  .delColor { fill: #f85149; }
+  .cc { fill: #616e7f; }
+  text, tspan { white-space: pre; }
+</style>
+<rect width="1020px" height="580px" fill="#161b22" rx="15"/>
+
+<!-- Sol Tarafta Senin ASCII Sanatın -->
+<text x="15" y="30" fill="#c9d1d9" font-size="12px">
+<tspan x="15" y="30">                                                      </tspan>
+<tspan x="15" y="48">                                                      </tspan>
+<tspan x="15" y="66">                           +**++                      </tspan>
+<tspan x="15" y="84">                       +###**####*                    </tspan>
+<tspan x="15" y="102">                   +%%%*+**####*%#**+                 </tspan>
+<tspan x="15" y="120">               +***#**#######*##*#%%#*+               </tspan>
+<tspan x="15" y="138">              #*#####***########%##@###%  ++          </tspan>
+<tspan x="15" y="156">           *#*#%%###**+*##%#%##@#%@##*######*         </tspan>
+<tspan x="15" y="174">         %*###%#%##*++++*###%%#%%%@%#@%#%%#           </tspan>
+<tspan x="15" y="192">      **#####*#%##*+++++++***#%%%@%@@%%##%##*         </tspan>
+<tspan x="15" y="210">       #*#%%%%%%#*+++===+++++++*#@%%%%%%####**        </tspan>
+<tspan x="15" y="228">        *%#%@%%#*+####%*++++++**#%%%%%%%%#%#**        </tspan>
+<tspan x="15" y="246">         %%%%@%++**+****#****###*##%%%%%%#**          </tspan>
+<tspan x="15" y="264">         #%%%@++++#*#%%#**=+%########*%%##            </tspan>
+<tspan x="15" y="282">          #%%%===++*###***-+**####***+%@              </tspan>
+<tspan x="15" y="300">          *##%===*======#=-=#++++++++=%*              </tspan>
+<tspan x="15" y="318">           =#*====-#==#*====+**+==#===#               </tspan>
+<tspan x="15" y="336">            =+==++++****#***#*****+===+               </tspan>
+<tspan x="15" y="354">            *+=++++*#*++#####+*#**++=-=               </tspan>
+<tspan x="15" y="372">              =++++##%########@**++++                 </tspan>
+<tspan x="15" y="390">              +++++++++++***++=+**++=                 </tspan>
+<tspan x="15" y="408">               ****+++++++**+++++**+                  </tspan>
+<tspan x="15" y="426">                =**++===+++===++*#:                   </tspan>
+<tspan x="15" y="444">                =++#**********##*=-%                  </tspan>
+<tspan x="15" y="462">              %@==++**########**==-@%                 </tspan>
+<tspan x="15" y="480">            %@@@===++**#####***+===%%%%%              </tspan>
+<tspan x="15" y="498">           %%@:-===+++*******+++++%%%%%%%##*          </tspan>
+<tspan x="15" y="516">         %%%%=--===+++*******++*#%%%%%%%%%####*       </tspan>
+<tspan x="15" y="534">       #%%%%%@--====+++++*+***@%@@@@%%%%%%%%#####*#   </tspan>
+</text>
+
+<!-- Sağ Tarafta Sistem ve GitHub Bilgileri -->
+<text x="500" y="40" fill="#c9d1d9">
+  <tspan x="500" y="40">emre-tiryaki@github</tspan> ----------------------------------
+  <tspan x="500" y="70" class="cc">. </tspan><tspan class="key">OS</tspan>:<tspan class="cc"> ........................ </tspan><tspan class="value">Arch Linux x86_64</tspan>
+  <tspan x="500" y="95" class="cc">. </tspan><tspan class="key">Host</tspan>:<tspan class="cc"> ...................... </tspan><tspan class="value">Lenovo LOQ 15IRX10</tspan>
+  <tspan x="500" y="120" class="cc">. </tspan><tspan class="key">Kernel</tspan>:<tspan class="cc"> .................... </tspan><tspan class="value">Linux 6.x</tspan>
+  <tspan x="500" y="145" class="cc">. </tspan><tspan class="key">IDE</tspan>:<tspan class="cc"> ....................... </tspan><tspan class="value">Neovim / VSCode</tspan>
+  
+  <tspan x="500" y="185" class="cc">. </tspan><tspan class="key">Languages</tspan>.<tspan class="key">Programming</tspan>:<tspan class="cc"> ..... </tspan><tspan class="value">Go, Rust, TypeScript, Java</tspan>
+  <tspan x="500" y="210" class="cc">. </tspan><tspan class="key">Languages</tspan>.<tspan class="key">Real</tspan>:<tspan class="cc"> ................ </tspan><tspan class="value">Turkish, English</tspan>
+
+  <tspan x="500" y="250" class="cc">. </tspan><tspan class="key">Hobbies</tspan>:<tspan class="cc"> ................... </tspan><tspan class="value">Open Source, Backend Dev</tspan>
+
+  <tspan x="500" y="290">- Contact ------------------------------------------------</tspan>
+  <tspan x="500" y="320" class="cc">. </tspan><tspan class="key">Email</tspan>:<tspan class="cc"> ..................... </tspan><tspan class="value">kullanici@domain.com</tspan>
+  <tspan x="500" y="345" class="cc">. </tspan><tspan class="key">LinkedIn</tspan>:<tspan class="cc"> .................- </tspan><tspan class="value">in/kullaniciadi</tspan>
+
+  <tspan x="500" y="385">- GitHub Stats -------------------------------------------</tspan>
+  <tspan x="500" y="415" class="cc">. </tspan><tspan class="key">Repos</tspan>:<tspan class="cc"> </tspan><tspan class="value">26</tspan> {<tspan class="key">Contributed</tspan>: <tspan class="value">19</tspan>} | <tspan class="key">Stars</tspan>:<tspan class="cc"> </tspan><tspan class="value">3</tspan>
+  <tspan x="500" y="440" class="cc">. </tspan><tspan class="key">Commits</tspan>:<tspan class="cc"> </tspan><tspan class="value">486</tspan> | <tspan class="key">Followers</tspan>:<tspan class="cc"> </tspan><tspan class="value">52</tspan>
+  <tspan x="500" y="465" class="cc">. </tspan><tspan class="key">Lines of Code</tspan>:<tspan class="cc"> </tspan><tspan class="value">250,420</tspan> ( <tspan class="addColor">310,120++</tspan>, <tspan class="delColor">59,700--</tspan> )
+</text>
+</svg>
