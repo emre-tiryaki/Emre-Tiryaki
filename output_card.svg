@@ -64,7 +64,7 @@
 
   <tspan x="480" y="390">- GitHub Stats -------------------------------------------</tspan>
   <tspan x="480" y="420" class="cc">. </tspan><tspan class="key">Repos</tspan>:<tspan class="cc"> </tspan><tspan class="value">26</tspan> {<tspan class="key">Contributed</tspan>: <tspan class="value">19</tspan>} | <tspan class="key">Stars</tspan>:<tspan class="cc"> </tspan><tspan class="value">3</tspan>
-  <tspan x="480" y="445" class="cc">. </tspan><tspan class="key">Commits</tspan>:<tspan class="cc"> </tspan><tspan class="value">488</tspan> | <tspan class="key">Followers</tspan>:<tspan class="cc"> </tspan><tspan class="value">52</tspan>
+  <tspan x="480" y="445" class="cc">. </tspan><tspan class="key">Commits</tspan>:<tspan class="cc"> </tspan><tspan class="value">490</tspan> | <tspan class="key">Followers</tspan>:<tspan class="cc"> </tspan><tspan class="value">52</tspan>
   <tspan x="480" y="470" class="cc">. </tspan><tspan class="key">Lines of Code</tspan>:<tspan class="cc"> </tspan><tspan class="value">250,420</tspan> ( <tspan class="addColor">310,120++</tspan>, <tspan class="delColor">59,700--</tspan> )
 </text>
 </svg>
