@@ -56,7 +56,7 @@ def fetch_fish_animation():
                         ch = (cell["char"].replace("&", "&amp;")
                               .replace("<", "&lt;").replace(">", "&gt;"))
                         spans.append(f'<tspan fill="{color}">{ch}</tspan>')
-                rows.append(f'<tspan x="25" y="{35 + y*15}">{"".join(spans)}</tspan>')
+                rows.append(f'<tspan x="520" y="{35 + y*15}">{"".join(spans)}</tspan>')
             frame_text = "".join(rows)
 
             t0 = fi * dur_s / total
