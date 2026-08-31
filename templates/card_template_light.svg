@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" font-family="'JetBrains Mono', 'Fira Code', Consolas, 'Courier New', monospace" width="985px" height="540px" font-size="13px">
+<style>
+  .key { fill: #0550ae; }
+  .value { fill: #0a3069; }
+  .cc { fill: #6e7781; }
+  .name { fill: #1f2328; font-weight: 800; letter-spacing: 0.5px; }
+  .title { fill: #0550ae; font-weight: 700; letter-spacing: 0.5px; }
+  .section { fill: #656d76; font-weight: 700; letter-spacing: 1px; }
+  text, tspan { white-space: pre; }
+</style>
+<rect width="985px" height="540px" fill="#ffffff" rx="15" stroke="#d0d7de" stroke-width="1"/>
+
+<!-- ayirici -->
+<line x1="500" y1="20" x2="500" y2="520" stroke="#d0d7de" stroke-width="1"/>
+
+<!-- ===================== SOL SÜTUN: KİŞİSEL + TECH (x=25-480) ===================== -->
+<text x="25" y="58" font-size="40px" class="name">{full_name}</text>
+<text x="25" y="92" font-size="22px" class="title">{title}</text>
+
+<line x1="25" y1="120" x2="480" y2="120" stroke="#d0d7de" stroke-width="1"/>
+
+<text x="25" y="150" font-size="13px" class="section">SYSTEM</text>
+<text x="25" y="174" font-size="13px"><tspan class="key">OS</tspan><tspan class="cc">: </tspan><tspan class="cc">{os_dots}</tspan><tspan class="value">{os_info}</tspan></text>
+<text x="25" y="195" font-size="13px"><tspan class="key">Host</tspan><tspan class="cc">: </tspan><tspan class="cc">{host_dots}</tspan><tspan class="value">{host_info}</tspan></text>
+<text x="25" y="216" font-size="13px"><tspan class="key">Kernel</tspan><tspan class="cc">: </tspan><tspan class="cc">{kernel_dots}</tspan><tspan class="value">{kernel_info}</tspan></text>
+<text x="25" y="237" font-size="13px"><tspan class="key">IDE</tspan><tspan class="cc">: </tspan><tspan class="cc">{ide_dots}</tspan><tspan class="value">{ide_info}</tspan></text>
+
+<line x1="25" y1="257" x2="480" y2="257" stroke="#d0d7de" stroke-width="1"/>
+
+<text x="25" y="287" font-size="13px" class="section">LANGUAGES</text>
+<text x="25" y="311" font-size="13px"><tspan class="key">Programming</tspan><tspan class="cc">: </tspan><tspan class="cc">{prog_dots}</tspan><tspan class="value">{languages_prog}</tspan></text>
+
+<line x1="25" y1="337" x2="480" y2="337" stroke="#d0d7de" stroke-width="1"/>
+
+<text x="25" y="367" font-size="13px" class="section">GITHUB STATS</text>
+<text x="25" y="393" font-size="13px" class="key">Repos</text>
+<text x="25" y="413" font-size="15px" class="value">{repos}</text>
+<text x="180" y="393" font-size="13px" class="key">Stars</text>
+<text x="180" y="413" font-size="15px" class="value">{stars}</text>
+<text x="335" y="393" font-size="13px" class="key">Commits</text>
+<text x="335" y="413" font-size="15px" class="value">{commits}</text>
+<text x="25" y="443" font-size="13px" class="key">Contributed</text>
+<text x="25" y="463" font-size="15px" class="value">{contributed}</text>
+<text x="180" y="443" font-size="13px" class="key">Followers</text>
+<text x="180" y="463" font-size="15px" class="value">{followers}</text>
+<text x="335" y="443" font-size="13px" class="key">Top Lang</text>
+<text x="335" y="463" font-size="15px" class="value">{top_language}</text>
+
+<!-- ===================== SAĞ SÜTUN: ASCII BALIK ANİMASYONU (x=520-965) ===================== -->
+<g class="fish">
+{fish_frame}
+</g>
+</svg>

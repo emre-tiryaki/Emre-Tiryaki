@@ -23,7 +23,24 @@ STATIC = {
 FISH_FRAME_DUR = 0.1  # saniye (100ms)
 
 
-def fetch_fish_animation():
+# Light temada balik kontrasti icin acik renkleri koyuya map'le
+LIGHT_FISH_COLORS = {
+    "#30f2f2": "#0a3069",  # cyan -> koyu mavi
+    "#c2f261": "#1a7f37",  # acik yesil -> koyu yesil
+    "#91f291": "#207d3a",
+    "#61f2c2": "#0f7b6c",  # acik turkuaz -> koyu turkuaz
+    "#006400": "#006400",  # zaten koyu
+    "#ccff33": "#4d7c0f",  # acik lime -> koyu zeytin
+    "#007200": "#007200",
+    "#008000": "#008000",
+    "#38b000": "#2b8a3e",
+    "#9ef01a": "#3f6212",
+    "#70e000": "#3f6212",
+    "#f2f230": "#9a6700",  # acik sari -> koyu amber
+}
+
+
+def fetch_fish_animation(theme="dark"):
     """fish_frames.json dosyasindan (bir kez indirildi) TUM frame'leri okur
     ve SMIL <animate> ile oynayan ASCII balik uretir.
     Dosya yoksa statik yer tutucu doner."""
@@ -53,6 +70,8 @@ def fetch_fish_animation():
                         spans.append("<tspan> </tspan>")
                     else:
                         color = cell.get("color", "#c2f261")
+                        if theme == "light":
+                            color = LIGHT_FISH_COLORS.get(color, color)
                         ch = (cell["char"].replace("&", "&amp;")
                               .replace("<", "&lt;").replace(">", "&gt;"))
                         spans.append(f'<tspan fill="{color}">{ch}</tspan>')
@@ -138,16 +157,16 @@ def fetch_github_stats():
     }
 
 
-def main():
+def build_card(template_path, output_path, theme="dark"):
+    """Verilen temaya ait SVG'i uretir."""
     stats = fetch_github_stats()
-    fish_frame = fetch_fish_animation()
+    fish_frame = fetch_fish_animation(theme)
 
     stats.update({
         "full_name": "Emre Tiryaki",
         "title": "Backend Developer",
         "fish_frame": fish_frame,
 
-        # Sağ sütun
         "os_info": "Arch Linux x86_64",
         "host_info": "Lenovo LOQ 15IRX10",
         "kernel_info": "Linux 7.1.4-arch1-1",
@@ -159,7 +178,7 @@ def main():
     })
 
     # Nokta doldurma: etiket uzunluguna gore boslugu '.' ile doldur
-    # Sag sutun 525-965 = 440px, 13px monospace ~7.8px/karakter -> ~56 kolon
+    # Sol sutun 25-480 = 455px, 13px monospace ~7.8px/karakter -> ~56 kolon
     def make_dots(label, value, total_cols=56):
         avail = total_cols - len(label) - 2 - len(value)
         if avail < 1:
@@ -172,11 +191,9 @@ def main():
     stats["ide_dots"] = make_dots("IDE", stats["ide_info"])
     stats["prog_dots"] = make_dots("Programming", stats["languages_prog"])
 
-    # Template'i oku ve placeholder'lari doldur
-    with open("templates/card_template.svg", "r", encoding="utf-8") as f:
+    with open(template_path, "r", encoding="utf-8") as f:
         template = f.read()
 
-    # XML'de özel anlami olan karakterleri escape et
     def xml_escape(s):
         return str(s).replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;")
 
@@ -188,10 +205,15 @@ def main():
         else:
             output_svg = output_svg.replace(f"{{{key}}}", xml_escape(value))
 
-    with open("output_card.svg", "w", encoding="utf-8") as f:
+    with open(output_path, "w", encoding="utf-8") as f:
         f.write(output_svg)
 
-    print("[ok] output_card.svg uretildi.")
+    print(f"[ok] {output_path} uretildi.")
+
+
+def main():
+    build_card("templates/card_template.svg", "output_card.svg", "dark")
+    build_card("templates/card_template_light.svg", "output_card_light.svg", "light")
 
 
 if __name__ == "__main__":
