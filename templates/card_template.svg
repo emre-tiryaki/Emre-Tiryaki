@@ -1,70 +1,53 @@
-<svg xmlns="http://www.w3.org/2000/svg" font-family="Consolas, 'Courier New', monospace" width="985px" height="540px" font-size="14px">
+<svg xmlns="http://www.w3.org/2000/svg" font-family="'JetBrains Mono', 'Fira Code', Consolas, 'Courier New', monospace" width="985px" height="540px" font-size="13px">
 <style>
   .key { fill: #ffa657; }
   .value { fill: #a5d6ff; }
-  .addColor { fill: #3fb950; }
-  .delColor { fill: #f85149; }
   .cc { fill: #616e7f; }
+  .name { fill: #ffffff; font-weight: 800; letter-spacing: 0.5px; }
+  .title { fill: #ffa657; font-weight: 700; letter-spacing: 0.5px; }
+  .section { fill: #8b949e; font-weight: 700; letter-spacing: 1px; }
   text, tspan { white-space: pre; }
 </style>
 <rect width="985px" height="540px" fill="#161b22" rx="15"/>
 
-<!-- Sol Tarafta Yeni ASCII Sanatın -->
-<text x="15" y="25" fill="#c9d1d9" font-size="11px">
-<tspan x="15" y="25">                                                           </tspan>
-<tspan x="15" y="38">                              =*++=** #*#                  </tspan>
-<tspan x="15" y="51">                       =+**@@#+##%*=*###**+                </tspan>
-<tspan x="15" y="64">                   ++#**+%%%#+*#%*#+*%%*##%%#              </tspan>
-<tspan x="15" y="77">                +=#+##*#+%+*=*%#%#%#*%@%@@%%%              </tspan>
-<tspan x="15" y="90">             ===+++*#*%%*=%*#%%#=#%@%%@@@@@@%%%            </tspan>
-<tspan x="15" y="103">          --===++==**#%*%%#*@%%**#%%%%%%@@@@@@@%           </tspan>
-<tspan x="15" y="116">         :-:===-+=+*#%+%-%%#%%%+#%####%%%@%@%%@%%#         </tspan>
-<tspan x="15" y="129">         -:-=+=++++#**#*%#%%%%%#%###*##%%@@%%%%%%%#        </tspan>
-<tspan x="15" y="142">        ::-*+=++**###+*#%%%%##%%#*****##%@%%%%%%%%%##      </tspan>
-<tspan x="15" y="155">      :-::++##%%%#%++**#%%######*******###%%%%%%%%%##      </tspan>
-<tspan x="15" y="168">      ..:=*=%#%%%*#=%%######*%*+*##%%%@%%%%%%@%%%%%##      </tspan>
-<tspan x="15" y="181">     :-.-==+*#####%%###%%%#****+*****#****###%%%%%%%#      </tspan>
-<tspan x="15" y="194">     -.-:==+*##*+***********#%%#*+*******+++##@%%%%        </tspan>
-<tspan x="15" y="207">   ::.---++++#%::=+***#####*=***#*#%%%@%%*++#+%%%#         </tspan>
-<tspan x="15" y="220">    =--===-+-##--*++*##*##**==++##*#***+++++*=%@%          </tspan>
-<tspan x="15" y="233">           :-.=:+..-+++*+++*.=+++%+*+***+++%+=%%           </tspan>
-<tspan x="15" y="246">           -:-:..+.::-===-+-:=++++++++=++*++==*+           </tspan>
-<tspan x="15" y="259">            -+-....=-==++=:.=+++==++++++++=====*           </tspan>
-<tspan x="15" y="272">             #=.....-=++++-##*++***+++++======++           </tspan>
-<tspan x="15" y="285">              ......-++++++*#####**+++++=======+=          </tspan>
-<tspan x="15" y="298">              ......-+***..:=***++++++*++===+==            </tspan>
-<tspan x="15" y="311">               .....:+*###=+*##**+***##*+==++==            </tspan>
-<tspan x="15" y="324">                ....:++=-..:=+*+++++++++===+=++            </tspan>
-<tspan x="15" y="337">                ....-=:..::-+***+++=========++             </tspan>
-<tspan x="15" y="350">                 :..:.....:::-+++++========+*%++=          </tspan>
-<tspan x="15" y="363">                   .........-+*++++=====+++*+@@*=#+-       </tspan>
-<tspan x="15" y="376">                  %+.......-++++++===+++**+++%@@@**=----   </tspan>
-<tspan x="15" y="389">                %+#%...::.:=+++=+=++++#*+++++*%@@@##+-=--- </tspan>
-<tspan x="15" y="402">               #+#%+.....:=++++++++*****++++**%%@@@%#=-----</tspan>
-<tspan x="15" y="415">             -#+##--......:+###########******#%%#@@%#+=@*#-</tspan>
-<tspan x="15" y="428">         -:::%*#..-+--==...=#####%%%%%%%##**##%@%@@###-+%%-</tspan>
-</text>
+<!-- ===================== SOL SÜTUN: ASCII BALIK ANİMASYONU (tam yükseklik) ===================== -->
+<g class="fish">
+{fish_frame}
+</g>
 
-<!-- Sağ Tarafta Sistem ve GitHub Bilgileri (Resme yakınlaştırıldı) -->
-<text x="480" y="45" fill="#c9d1d9">
-  <tspan x="480" y="45">{username}@github</tspan> ----------------------------------
-  <tspan x="480" y="75" class="cc">. </tspan><tspan class="key">OS</tspan>:<tspan class="cc"> ........................ </tspan><tspan class="value">{os_info}</tspan>
-  <tspan x="480" y="100" class="cc">. </tspan><tspan class="key">Host</tspan>:<tspan class="cc"> ...................... </tspan><tspan class="value">{host_info}</tspan>
-  <tspan x="480" y="125" class="cc">. </tspan><tspan class="key">Kernel</tspan>:<tspan class="cc"> .................... </tspan><tspan class="value">{kernel_info}</tspan>
-  <tspan x="480" y="150" class="cc">. </tspan><tspan class="key">IDE</tspan>:<tspan class="cc"> ....................... </tspan><tspan class="value">{ide_info}</tspan>
-  
-  <tspan x="480" y="190" class="cc">. </tspan><tspan class="key">Languages</tspan>.<tspan class="key">Programming</tspan>:<tspan class="cc"> ..... </tspan><tspan class="value">{languages_prog}</tspan>
-  <tspan x="480" y="215" class="cc">. </tspan><tspan class="key">Languages</tspan>.<tspan class="key">Real</tspan>:<tspan class="cc"> ................ </tspan><tspan class="value">{languages_real}</tspan>
+<!-- ayirici -->
+<line x1="500" y1="20" x2="500" y2="520" stroke="#30363d" stroke-width="1"/>
 
-  <tspan x="480" y="255" class="cc">. </tspan><tspan class="key">Hobbies</tspan>:<tspan class="cc"> ................... </tspan><tspan class="value">{hobbies}</tspan>
+<!-- ===================== SAĞ SÜTUN: KİŞİSEL + TECH ===================== -->
+<text x="525" y="58" font-size="40px" class="name">{full_name}</text>
+<text x="525" y="92" font-size="22px" class="title">{title}</text>
 
-  <tspan x="480" y="295">- Contact ------------------------------------------------</tspan>
-  <tspan x="480" y="325" class="cc">. </tspan><tspan class="key">Email</tspan>:<tspan class="cc"> ..................... </tspan><tspan class="value">{email}</tspan>
-  <tspan x="480" y="350" class="cc">. </tspan><tspan class="key">LinkedIn</tspan>:<tspan class="cc"> .................- </tspan><tspan class="value">{linkedin}</tspan>
+<line x1="525" y1="120" x2="965" y2="120" stroke="#30363d" stroke-width="1"/>
 
-  <tspan x="480" y="390">- GitHub Stats -------------------------------------------</tspan>
-  <tspan x="480" y="420" class="cc">. </tspan><tspan class="key">Repos</tspan>:<tspan class="cc"> </tspan><tspan class="value">{repos}</tspan> {<tspan class="key">Contributed</tspan>: <tspan class="value">{contributed}</tspan>} | <tspan class="key">Stars</tspan>:<tspan class="cc"> </tspan><tspan class="value">{stars}</tspan>
-  <tspan x="480" y="445" class="cc">. </tspan><tspan class="key">Commits</tspan>:<tspan class="cc"> </tspan><tspan class="value">{commits}</tspan> | <tspan class="key">Followers</tspan>:<tspan class="cc"> </tspan><tspan class="value">{followers}</tspan>
-  <tspan x="480" y="470" class="cc">. </tspan><tspan class="key">Lines of Code</tspan>:<tspan class="cc"> </tspan><tspan class="value">{loc_total}</tspan> ( <tspan class="addColor">{loc_add}++</tspan>, <tspan class="delColor">{loc_del}--</tspan> )
-</text>
+<text x="525" y="150" font-size="13px" class="section">SYSTEM</text>
+<text x="525" y="174" font-size="13px"><tspan class="key">OS</tspan><tspan class="cc">: </tspan><tspan class="cc">{os_dots}</tspan><tspan class="value">{os_info}</tspan></text>
+<text x="525" y="195" font-size="13px"><tspan class="key">Host</tspan><tspan class="cc">: </tspan><tspan class="cc">{host_dots}</tspan><tspan class="value">{host_info}</tspan></text>
+<text x="525" y="216" font-size="13px"><tspan class="key">Kernel</tspan><tspan class="cc">: </tspan><tspan class="cc">{kernel_dots}</tspan><tspan class="value">{kernel_info}</tspan></text>
+<text x="525" y="237" font-size="13px"><tspan class="key">IDE</tspan><tspan class="cc">: </tspan><tspan class="cc">{ide_dots}</tspan><tspan class="value">{ide_info}</tspan></text>
+
+<line x1="525" y1="257" x2="965" y2="257" stroke="#30363d" stroke-width="1"/>
+
+<text x="525" y="287" font-size="13px" class="section">LANGUAGES</text>
+<text x="525" y="311" font-size="13px"><tspan class="key">Programming</tspan><tspan class="cc">: </tspan><tspan class="cc">{prog_dots}</tspan><tspan class="value" text-anchor="end" x="965">{languages_prog}</tspan></text>
+
+<line x1="525" y1="337" x2="965" y2="337" stroke="#30363d" stroke-width="1"/>
+
+<text x="525" y="367" font-size="13px" class="section">GITHUB STATS</text>
+<text x="525" y="393" font-size="13px" class="key">Repos</text>
+<text x="525" y="413" font-size="15px" class="value">{repos}</text>
+<text x="690" y="393" font-size="13px" class="key">Stars</text>
+<text x="690" y="413" font-size="15px" class="value">{stars}</text>
+<text x="850" y="393" font-size="13px" class="key">Commits</text>
+<text x="850" y="413" font-size="15px" class="value">{commits}</text>
+<text x="525" y="443" font-size="13px" class="key">Contributed</text>
+<text x="525" y="463" font-size="15px" class="value">{contributed}</text>
+<text x="690" y="443" font-size="13px" class="key">Followers</text>
+<text x="690" y="463" font-size="15px" class="value">{followers}</text>
+<text x="850" y="443" font-size="13px" class="key">Top Lang</text>
+<text x="850" y="463" font-size="15px" class="value">{top_language}</text>
 </svg>
