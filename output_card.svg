@@ -38,11 +38,11 @@
 <text x="180" y="393" font-size="13px" class="key">Stars</text>
 <text x="180" y="413" font-size="15px" class="value">1</text>
 <text x="335" y="393" font-size="13px" class="key">Commits</text>
-<text x="335" y="413" font-size="15px" class="value">577</text>
+<text x="335" y="413" font-size="15px" class="value">579</text>
 <text x="25" y="443" font-size="13px" class="key">Contributed</text>
 <text x="25" y="463" font-size="15px" class="value">18</text>
 <text x="180" y="443" font-size="13px" class="key">Followers</text>
-<text x="180" y="463" font-size="15px" class="value">64</text>
+<text x="180" y="463" font-size="15px" class="value">67</text>
 <text x="335" y="443" font-size="13px" class="key">Top Lang</text>
 <text x="335" y="463" font-size="15px" class="value">Go</text>
 
