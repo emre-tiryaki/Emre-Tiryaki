@@ -34,11 +34,11 @@
 
 <text x="25" y="367" font-size="13px" class="section">GITHUB STATS</text>
 <text x="25" y="393" font-size="13px" class="key">Repos</text>
-<text x="25" y="413" font-size="15px" class="value">24</text>
+<text x="25" y="413" font-size="15px" class="value">25</text>
 <text x="180" y="393" font-size="13px" class="key">Stars</text>
 <text x="180" y="413" font-size="15px" class="value">1</text>
 <text x="335" y="393" font-size="13px" class="key">Commits</text>
-<text x="335" y="413" font-size="15px" class="value">508</text>
+<text x="335" y="413" font-size="15px" class="value">510</text>
 <text x="25" y="443" font-size="13px" class="key">Contributed</text>
 <text x="25" y="463" font-size="15px" class="value">18</text>
 <text x="180" y="443" font-size="13px" class="key">Followers</text>
