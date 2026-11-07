@@ -1,7 +1,16 @@
 <picture>
-  <source media="(prefers-color-scheme: light)" srcset="./output_card_light.svg">
-  <source media="(prefers-color-scheme: dark)" srcset="./output_card.svg">
-  <img alt="Profile Card" src="./output_card.svg">
+  <source
+    media="(prefers-color-scheme: light)"
+    srcset="./output_card_light.svg?v=2"
+  >
+  <source
+    media="(prefers-color-scheme: dark)"
+    srcset="./output_card.svg?v=2"
+  >
+  <img
+    alt="Profile Card"
+    src="./output_card.svg?v=2"
+  >
 </picture>
 
 
