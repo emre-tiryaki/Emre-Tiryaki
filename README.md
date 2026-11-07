@@ -16,12 +16,26 @@
 
 <br />
 
+
+<table>
+  <tr>
+    <td width="50%" align="center">
+      <img
+        src="https://raw.githubusercontent.com/emre-tiryaki/Emre-Tiryaki/output/tulkun/tulkun.gif"
+        width="100%"
+        alt="My GitHub Tulkun"
+      />
+    </td>
+    <td width="50%" align="center">
+      <img
+        src="./koi/koi.gif"
+        width="100%"
+        alt="My GitHub Koi"
+      />
+    </td>
+  </tr>
+</table>
+
 <p align="center">
-  <img
-    src="https://raw.githubusercontent.com/emre-tiryaki/Emre-Tiryaki/output/tulkun/tulkun.gif"
-    width="100%"
-    alt="My GitHub Tulkun"
-  />
-  <br />
-  <sub><i>This little Tulkun grows with every contribution.</i></sub>
+  <i>A little Tulkun and a koi, growing with my GitHub activity.</i>
 </p>
