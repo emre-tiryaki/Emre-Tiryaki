@@ -17,11 +17,11 @@
 <br />
 
 <p align="center">
-  <a href="https://github.com/PramudithaN/git-tulkun">
-    <img
-      src="https://raw.githubusercontent.com/emre-tiryaki/Emre-Tiryaki/output/tulkun/tulkun.gif"
-      width="640"
-      alt="My GitHub Tulkun"
-    />
-  </a>
+  <sub><i>This little Tulkun grows with every contribution.</i></sub>
+  <br />
+  <img
+    src="https://raw.githubusercontent.com/emre-tiryaki/Emre-Tiryaki/output/tulkun/tulkun.gif"
+    width="100%"
+    alt="My GitHub Tulkun"
+  />
 </p>
