@@ -8,7 +8,6 @@
   .section { fill: #8b949e; font-weight: 700; letter-spacing: 1px; }
   text, tspan { white-space: pre; }
 </style>
-<rect width="985px" height="540px" fill="#161b22" rx="15"/>
 
 <!-- ayirici -->
 <line x1="500" y1="20" x2="500" y2="520" stroke="#30363d" stroke-width="1"/>
