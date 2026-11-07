@@ -23,5 +23,5 @@
 />
 
 <p align="center">
-  <i>A little Tulkun and a koi, growing with my GitHub activity.</i>
+  <i>A little koi, growing with my GitHub activity.</i>
 </p>
