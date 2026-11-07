@@ -16,17 +16,16 @@
 
 <br />
 
-
-<table>
+<table border="0">
   <tr>
-    <td width="50%" align="center">
+    <td width="50%" align="center" style="border: none">
       <img
         src="https://raw.githubusercontent.com/emre-tiryaki/Emre-Tiryaki/output/tulkun/tulkun.gif"
         width="100%"
         alt="My GitHub Tulkun"
       />
     </td>
-    <td width="50%" align="center">
+    <td width="50%" align="center" style="border: none">
       <img
         src="./koi/koi.gif"
         width="100%"
