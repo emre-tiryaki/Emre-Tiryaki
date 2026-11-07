@@ -16,11 +16,12 @@
 
 <br />
 
-<img
-  src="./koi/koi.gif"
-  width="100%"
-  alt="My GitHub Koi"
-/>
+<p align="center">
+  <img
+    src="./koi/koi.gif"
+    alt="My GitHub Koi"
+  >
+</p>
 
 <p align="center">
   <i>A little koi, growing with my GitHub activity.</i>
